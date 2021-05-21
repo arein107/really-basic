@@ -144,9 +144,9 @@ end)
 
 
 -- Implement the function to change the favoriteNumber
-function dropDownList:SetValue(newValue, jewValue)
+function dropDownList:SetValue(newValue, rosterValue)
 
-    frame:SetText(jewValue)
+    frame:SetText(rosterValue)
 
   -- print(clubIdStr)
     infoFrame:SetText(newValue)
